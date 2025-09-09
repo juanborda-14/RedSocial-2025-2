@@ -31,10 +31,10 @@ export default function App() {
       <View style={[styles.circle, { top: 200, right: -100, opacity: 0.5 }]} />
 
       {/* Logo */}
-      <Image source={require("./assets/logoapp.png")} style={styles.logo} />
+      <Image source={require("../../assets/images/logoapp.png")} style={styles.logo} />
 
       {/* Título */}
-      <Text style={styles.title}>Red Social</Text>
+      <Text style={styles.title}>Crea, Explora, Conecta.</Text>
 
       {/* Input Usuario */}
       <TextInput
@@ -56,7 +56,7 @@ export default function App() {
       />
 
       {/* Botón */}
-      <TouchableOpacity style={styles.button} onPress={handleLogin}>
+      <TouchableOpacity style={styles.button} onPress={handleLogin} onPressIn={()=> router.push("/(main)/home")}>
         <Text style={styles.buttonText}>Ingresar</Text>
       </TouchableOpacity>
 
@@ -89,8 +89,8 @@ const styles = StyleSheet.create({
     backgroundColor: "red", // círculos rojos
   },
   logo: {
-    width: 100,
-    height: 100,
+    width: 300,
+    height: 300,
     marginBottom: 20,
     resizeMode: "contain",
   },

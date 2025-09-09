@@ -24,7 +24,7 @@ export default function Register() {
       <View style={[styles.circle, { top: 200, right: -100, opacity: 0.5 }]} />
 
       {/* Logo */}
-      <Image source={require("/assets/images/logoapp.png")} style={styles.logo} />
+      <Image source={require("../../assets/images/logoapp.png")} style={styles.logo} />
 
       {/* Título */}
       <Text style={styles.title}>Crear Cuenta</Text>
@@ -91,8 +91,8 @@ const styles = StyleSheet.create({
     backgroundColor: "red",
   },
   logo: {
-    width: 100,
-    height: 100,
+    width: 300,
+    height: 300,
     marginBottom: 20,
     resizeMode: "contain",
   },

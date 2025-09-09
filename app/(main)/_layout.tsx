@@ -25,11 +25,11 @@ export default function LayoutMain() {
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="chat"
         options={{
-          title: "Explore",
+          title: "Chat",
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name="search-outline" size={size} color={color} />
+            <Ionicons name="text-outline" size={size} color={color} />
           ),
         }}
       />

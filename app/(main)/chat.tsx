@@ -1,10 +1,10 @@
 import { StyleSheet, Text, View } from "react-native";
 
-export default function Explore() {
+export default function Chat() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>🔍 Explore</Text>
-      <Text style={styles.text}>Explora nuevos usuarios y contenido.</Text>
+      <Text style={styles.title}>🔍 Aqui va el chat</Text>
+      <Text style={styles.text}>Chatea conmigo UwU.</Text>
     </View>
   );
 }

@@ -20,7 +20,7 @@ export default function Recover() {
       <View style={[styles.circle, { top: 200, right: -100, opacity: 0.5 }]} />
 
       {/* Logo */}
-      <Image source={require("./assets/logoapp.png")} style={styles.logo} />
+      <Image source={require("./assets/images/logoapp.png")} style={styles.logo} />
 
       {/* Título */}
       <Text style={styles.title}>Recuperar Contraseña</Text>
